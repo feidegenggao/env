@@ -104,3 +104,9 @@ fi
 # Add by Jumbal
 
 alias ls="ls --color --classify"
+alias workspace="cd /root/lxf/workspace"
+alias pighead="cd /root/lxf/Pig-s-Head"
+alias githubblog="cd /root/lxf/feidegenggao.github.com;ls"
+alias temp="cd /root/lxf/temp"
+alias httpsrc="cd /root/lxf/workspace/http_server"
+alias miniWebSrc="cd /root/lxf/workspace/miniweb"

@@ -73,4 +73,3 @@ let g:EchoFuncKeyNext="<F6>"
 set cursorline
 set cc=80
 noremap <F1> :!date<cr>
-set rnu
