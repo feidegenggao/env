@@ -74,7 +74,7 @@ if [ -x /usr/bin/dircolors ]; then
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
-    alias grep='grep --color=auto'
+    alias grep='grep --color=auto -n'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
@@ -104,9 +104,14 @@ fi
 # Add by Jumbal
 
 alias ls="ls --color --classify"
+alias vir="vi -R"
+alias hdfs="cd /root/lxf/hdfs/hadoop-1.1.2"
 alias workspace="cd /root/lxf/workspace"
 alias pighead="cd /root/lxf/Pig-s-Head"
 alias githubblog="cd /root/lxf/feidegenggao.github.com;ls"
 alias temp="cd /root/lxf/temp"
 alias httpsrc="cd /root/lxf/workspace/http_server"
 alias miniWebSrc="cd /root/lxf/workspace/miniweb"
+export HDFS_PATH=/root/lxf/hdfs
+export HADOOP_INSTALL_PATH=/root/lxf/hdfs/hadoop-1.1.2
+export PATH=$PATH:/root/lxf/android-ndk-r8e/:$HADOOP_INSTALL_PATH/bin

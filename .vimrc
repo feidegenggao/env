@@ -72,4 +72,5 @@ let g:EchoFuncKeyNext="<F6>"
 
 set cursorline
 set cc=80
+set term=xterm
 noremap <F1> :!date<cr>

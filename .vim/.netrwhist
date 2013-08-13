@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/root/lxf/feidegenggao.github.com/_posts/blog'
 let g:netrw_dirhist_2='/root/lxf/NetProgram/echo'
 let g:netrw_dirhist_3='/home/jumbal/TcpTrack/src'
 let g:netrw_dirhist_4='/root/lxf/temp/common'
 let g:netrw_dirhist_5='/root/lxf/feidegenggao.github.com/_posts/cplusplus'
+let g:netrw_dirhist_6='/etc'
+let g:netrw_dirhist_7='/root/lxf/android-ndk-r8e/jni/httpServer'
+let g:netrw_dirhist_8='/root/lxf/android-ndk-r8e/jni/hello/src'
+let g:netrw_dirhist_9='/root/lxf/android-ndk-r8e/jni/hello'
